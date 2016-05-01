@@ -5,21 +5,26 @@
     <title>Sydney Smith</title>
     <link href="./css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/hover.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:700,400' rel='stylesheet' type='text/css'>
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-
     <!-- Google Analytics -->
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-76836737-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
+    ga('create', 'UA-76836737-1', 'auto');
+    ga('send', 'pageview');
+    </script>
 </head>
 
 <body>
@@ -31,6 +36,14 @@
             <li>Contact</li>
         </ul>
     </div> -->
+        <!-- Social Media Icons -->
+    <div class="socialmedia">
+        <a class="icon hvr-bounce-in" href="https://www.linkedin.com/in/iamsydneysmith" target="_blank"><img src="./images/linkedin.png" width="40px"></a>
+        <a class="icon hvr-bounce-in" href="https://github.com/iamsydsmith" target="_blank"><img src="./images/github.png" width="50px"></a>
+        <a class="icon hvr-bounce-in" href="http://www.twitter.com/iamsydsmith" target="_blank"><img src="./images/twitter.png" width="50px"></a>
+        <a class="icon hvr-bounce-in" href="mailto:sydmac@gmail.com"><img src="./images/email1.png" width="45px"></a>
+    </div>
+    <!-- End of Social Media Icons -->
     <!-- Intro -->
     <div class="intro">
         <h1 class="intro-header">Hi, I'm Sydney</h1>
@@ -48,6 +61,7 @@
         <div class="opaque-box">
             <h1 class="about-header">About Me</h1>
             <p>I am a full stack web developer with a never-ending drive to learn. It's my mission to build websites in a new, innovative way through coding. A journalist-turned-web developer, I want to combine my love for technology and my journalistic instincts to create a more beautiful, simplified place on the web.</p>
+            <p>My love for technology started when I was a little girl. I built my own websites on AOL and geocities and self-taught myself HTML and CSS.</p>
             <p>In pursuit of advancing my career in technology, I am attending the full-time web development program at General Assembly and will be seeking employment in June 2016.</p>
         </div>
     </div>
@@ -55,6 +69,25 @@
     <!-- Portfolio -->
     <div class="portfolio">
         <h1 class="portfolio-header">Portfolio</h1>
+        <!-- Notebook Rails project -->
+        <div class="wide">
+            <a href="https://github.com/iamsydsmith/blog-manager" target="_blank">
+                <div class="project" id="notebook-project">
+                </div>
+            </a>
+            <div class="project description">
+                <h4 class="project-title">Notebook, Full Stack Application</h4>
+                <p class="project-bio">Technologies: Ruby on Rails, HTML/CSS, PSQL, Paperclip gem, Amazon Web Services gem and Photoshop</p>
+                <p class="project-bio">Notebook is a blog application with full CRUD (Create, Read, Update, Destroy) built in Ruby on Rails. Users are able to create, update, delete and browse through their blog posts. They can also add a comments to posts. </p>
+                <p class="project-bio">
+                    <a href="https://github.com/iamsydsmith/blog-manager" target="_blank">View on GitHub</a> | <a href="https://notebook-blog-manager.herokuapp.com/" target="_blank">See It Live</a>
+                </p>
+            </div>
+        </div>
+        <!-- End of Notebook Rails Project-->
+        <div class="hr">
+            <hr />
+        </div>
         <!-- TicTacTae Game -->
         <div class="wide">
             <a href="http://iamsydsmith.github.io/tic-tac-toe/" target="_blank">
@@ -97,11 +130,18 @@
         <div class="opaque-box">
             <h1 class="experience-header">Experience & Skills</h1>
             <ul class="experience-list">
-                <li>Design and build web applications in the 12-week full-time Web Development program at General Assembly.</li><br>
-                <li>8+ years professional experience in television production, video-editing, writing, digital producing and social media management at CNN.</li><br>
-                <li>2+ years as Webmaster for Turner Women Today website.</li><br>
-                <li>Extensive knowledge of HTML5, CSS3, JavaScript and jQuery.</li><br>
-                <li>Knowledge of backend systems such as Ruby on Rails.</li><br>
+                <li>Design and build web applications in the 12-week full-time Web Development program at General Assembly.</li>
+                <br>
+                <li>Extensive knowledge of HTML5, CSS3, JavaScript and jQuery.</li>
+                <br>
+                <li>Knowledge of backend systems such as Ruby on Rails.</li>
+                <br>
+                <li>8+ years professional experience in television production, video-editing, writing, digital producing and social media management at CNN.</li>
+                <br>
+                <li>2+ years as Webmaster for Turner Women Today website.</li>
+                <br>
+                <li>Volunteer Tech Assistant for Black Girls Code workshops</li>
+                <br>
                 <li>Proficient using WordPress CMS, Adobe Photoshop, Adobe Premiere.</li>
             </ul>
         </div>
