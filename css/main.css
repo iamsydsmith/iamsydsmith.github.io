@@ -178,7 +178,7 @@ textarea {
 .portfolio {
     background-color: #CDCDCD;
     width: 100%;
-    height: 2100px;
+    height: 2600px;
     clear: left;
 }
 
@@ -222,6 +222,12 @@ textarea {
 
 #outfttr-project {
     background: url(../images/outfttr-project.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+#money-project {
+    background: url(../images/show-me-money.png) no-repeat center center;
     background-size: cover;
     border-radius: 5px;
 }
